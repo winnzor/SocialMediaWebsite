@@ -1,0 +1,635 @@
+/* HTML5 display reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------------MY CODE----------------------*/
+.group:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*----------------------MAIN------------------------*/
+body {
+    background-color: #f9f9f9;
+}
+
+#main {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 1000px;
+}
+
+#wrap {
+    margin: 30px auto;
+    text-align: center;
+    width: 50%;
+    border: solid;
+    border-color: #006666;
+    background-color: #ccd6e0;
+}
+
+/*---------------------HEADER-----------------------*/
+#header {
+    text-align: center;
+    padding: 30px;
+    background-color: #003366;
+}
+
+.title {
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/*---------------------NAV BAR----------------------*/
+#navbar {
+    width: 100%;
+    text-align: center;
+    padding:5px;
+    background-color: #006666;
+}
+
+#navbar p {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    font-size: 16px;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.nav {
+    display: inline;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    margin: 0 0 0 20px;
+    margin: 0 0 0 20px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 150px;
+    border: 0;
+    color: #f9f9f9;
+    background-color: #003366;
+    outline-color: #003366;
+    -webkit-appearance: none;
+}
+
+#home:hover {
+    cursor: pointer;
+}
+
+#logout {
+    margin: 0 20px 0 0;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 150px;
+    border: 0;
+    color: #f9f9f9;
+    background-color: #003366;
+    outline-color: #003366;
+    -webkit-appearance: none;
+}
+
+#logout:hover {
+    cursor: pointer;
+}
+
+/*--------------------LOGIN-----------------------*/
+#logindiv {
+    width: 100%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.login {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 0;
+    display: inline-block;
+    outline-color: #006666;
+    max-width: 300px;
+    color: #003366;
+}
+
+#login:hover {
+    cursor: pointer;
+}
+
+#login {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    max-width: 300px;
+    border: 0;
+    color: #f9f9f9;
+    background-color: #006666;
+    outline-color: #006666;
+    -webkit-appearance: none;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #006666;
+    padding: 0; 
+}
+
+/*--------------------REGISTER----------------------*/
+#register {
+    width: 100%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.reg {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    outline-color: #006666;
+    max-width: 300px;
+    border: 0;
+    color: #003366;
+}
+
+#regbutton {
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 300px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    border: 0;
+    color: #f9f9f9;
+    background-color: #660033;
+    background-color: #006666;
+    outline-color: #006666;
+    -webkit-appearance: none;
+}
+
+#regbutton:hover {
+    cursor: pointer;
+}
+
+/*--------------------SUBJECTS----------------------*/
+h2 {
+    color: #003366;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#subjects li {
+    padding: 5px;
+    margin-left: 50px;
+    list-style-type: circle;
+    text-align: left;
+}
+
+#subjects {
+    vertical-align: top;
+    width: 45%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+    border: solid;
+    border-color: #006666;
+    background-color: #ccd6e0;
+    min-height: 655px;
+}
+
+#subjectcontent {
+    padding: 20px;
+    text-align: left;
+    color: #003366;
+}
+
+/*--------------------QUESTIONS---------------------*/
+#recent {
+    vertical-align: top;
+    width: 45%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    margin: 30px 10px 0px 10px;
+    border: solid;
+    border-color: #006666;
+    background-color: #ccd6e0;
+    min-height: 655px;
+}
+
+#recentcontent{
+    margin-top: 20px;
+    padding: 0 20px 20px 20px;
+    line-height: 1.2em;
+    text-align: left;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+
+/*----------------------ASK-------------------------*/
+#ask {
+    vertical-align: top;
+    width: 45%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #f9f9f9;
+    margin: 30px 10px 0px 10px;
+    border: solid;
+    border-color: #006666;
+    background-color: #ccd6e0;
+    min-height: 655px;
+}
+
+.askform {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.ask {
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 400px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    outline-color: #006666;
+    border: 0;
+    color: #003366;
+}
+
+.question {
+    height: 140px;
+    resize: none;
+}
+
+#dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    outline-color: #006666;
+    border: 0;
+    color: #003366;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+#askbutton {
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 400px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    border: 0;
+    color: #f9f9f9;
+    background-color: #660033;
+    background-color: #006666;
+    outline-color: #006666;
+    -webkit-appearance: none;
+}
+
+#askbutton:hover {
+    cursor: pointer;
+}
+
+/*---------------------ANSWERS----------------------*/
+#answers {
+    margin: 30px auto;
+    text-align: left;
+    width: 80%;
+    border: solid;
+    border-color: #006666;
+    background-color: #ccd6e0;
+    min-height: 200px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.answers h2 {
+    padding: 20px;
+}
+
+.answers {
+    padding: 20px;
+}
+
+#answers p {
+    text-align: right;
+    padding: 20px;
+    line-height: 1.4em;
+    color: #003366;
+}
+
+sub {
+    font-weight: 600;
+}
+
+asker {
+    font-weight: 300;
+}
+/*-------------------NEW COMMENTS-------------------*/
+#newcomments {
+    width: 80%;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 20px 40px;
+    display: inline-block;
+}
+
+.newcom {
+    max-width: 450px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+/*------------------RECENT COMMENTS-----------------*/
+#commentscroll {
+    margin: 0px auto;
+    text-align: left;
+    width: 80%;
+}
+
+#recentcomments {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.col1 {
+    display: inline-block;
+    padding: 20px;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #ccd6e0;
+    text-align: left;
+    color: #003366;
+    line-height: 1.3em;
+}
+
+.commentedanswer {
+    font-weight: 600;
+}
+
+.fname {
+    font-weight: 300;
+    text-align: right;
+}
+
+.col3 {
+    display: inline-block;
+    padding: 20px;
+    width: 20%;
+}
+
+.col3 img {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#vote {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.fa {
+    color: #003366;
+}
+
+.green {
+    color: #006666;
+}
+
+.red {
+    color: #660033;
+}
+
+.fa-thumbs-o-up:hover {
+    cursor: pointer;
+    color: #006666;
+}
+
+.fa-thumbs-o-down:hover {
+    color: #660033;
+    cursor: pointer;
+}
+
+/*------------------------IDK-----------------------*/
+#user {
+    display: inline;
+}
+
+#answer {
+    display: inline;
+    margin-left: 20px;
+    padding: 20px;
+    color: blue;
+}
+
+/*----------------------LINKS-----------------------*/
+a:link {
+    color: #006666;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #006666;
+}
+
+a:hover {
+    color: #660033;
+}
+
+
+@media only screen and (max-width: 1060px) {
+    .col1 {
+        width: 100%;
+    }
+    
+    .col3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #wrap {
+        width: 90%;
+    }
+    
+    #subjects {
+        width: 90%;
+    }
+    
+    #recent {
+        width: 90%;
+    }
+    
+    #ask {
+        width: 90%;
+    }
+    
+    #newcomments {
+         width: 90%;
+    }
+
+    #commentscroll {
+        width: 90%;
+    }
+    
+    #answers {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    #navbar p {
+        display: block;
+    }
+    
+    #home {
+        display: block;
+        margin: 5px auto;
+        width: 100%;
+    }
+
+    #logout {
+        display: block;
+        margin: 5px auto;
+        width: 100%;
+    }
+    
+    #subjects {
+        padding: 20px 5px;
+    }
+    
+    #subjects p {
+        padding-left: 10px;
+    }
+    
+    #recent {
+        padding: 20px 5px;
+    }
+    
+    #ask {
+        padding: 20px 5px;
+    }
+    
+    #newcomments {
+        padding: 20px 5px;
+    }
+    
+    #recentcomments {
+        padding: 5px;
+    }
+    
+    .col1 {
+        width: 100%;
+    }
+    
+    .col3 {
+        width: 100%;
+    }
+    
+    .answers {
+        padding: 10px;
+    }
+}
